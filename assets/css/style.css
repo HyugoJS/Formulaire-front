@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: #7359dc;
+}
+.container {
+  width: 600px;
+  height: 800px;
+  background-color: aliceblue;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formulaire-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 20px;
+  /* border: red solid 2px; */
+  flex: 1;
+  margin: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centrer les inputs */
+  width: 100%;
+  background-color: aliceblue;
+  /* border: red solid 2px; */
+  padding: 30px;
+  gap: 20px;
+}
+h1 {
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-weight: bold; */
+  padding-bottom: 30px;
+}
+.submit {
+  background-color: #7359dc;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+}
+textarea {
+  border-radius: 10px;
+  width: 100%;
+}
