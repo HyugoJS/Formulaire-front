@@ -9,12 +9,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     console.log({ firstname, lastname, email, message });
 
-    const response = await axios.post("http://localhost:3000/form", {
-      firstname,
-      lastname,
-      email,
-      message,
-    });
+    const response = await axios.post(
+      "https://site--formulaire-back--fc7nwyvb2r4r.code.run/form",
+      {
+        firstname,
+        lastname,
+        email,
+        message,
+      }
+    );
 
     console.log(response.data);
   });
